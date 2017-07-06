@@ -6,7 +6,7 @@
 //  Copyright © 2017年 LaiYoung_. All rights reserved.
 //
 
-#import "Model.h"
+#import "VCModel.h"
 #import "SvcUser+Search.h"
 #import "HttpRequestSearchContacts.h"
 
