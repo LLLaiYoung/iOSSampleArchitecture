@@ -21,8 +21,8 @@
 		8376072F1F0DF7200095CC00 /* SvcUser+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 8376072E1F0DF7200095CC00 /* SvcUser+Search.m */; };
 		8376073D1F0DFB3A0095CC00 /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8376073C1F0DFB3A0095CC00 /* HttpClient.m */; };
 		837607401F0DFB4A0095CC00 /* NSObject+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8376073F1F0DFB4A0095CC00 /* NSObject+Add.m */; };
-		837607651F0E0DB70095CC00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837607631F0E0DB70095CC00 /* ViewController.m */; };
-		837607681F0E0EE60095CC00 /* VCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 837607671F0E0EE60095CC00 /* VCModel.m */; };
+		8376076E1F0E13CF0095CC00 /* VCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8376076B1F0E13CF0095CC00 /* VCModel.m */; };
+		8376076F1F0E13CF0095CC00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8376076D1F0E13CF0095CC00 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,10 +52,10 @@
 		8376073C1F0DFB3A0095CC00 /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
 		8376073E1F0DFB4A0095CC00 /* NSObject+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Add.h"; sourceTree = "<group>"; };
 		8376073F1F0DFB4A0095CC00 /* NSObject+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Add.m"; sourceTree = "<group>"; };
-		837607621F0E0DB70095CC00 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		837607631F0E0DB70095CC00 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		837607661F0E0EE60095CC00 /* VCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCModel.h; sourceTree = "<group>"; };
-		837607671F0E0EE60095CC00 /* VCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCModel.m; sourceTree = "<group>"; };
+		8376076A1F0E13CF0095CC00 /* VCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCModel.h; sourceTree = "<group>"; };
+		8376076B1F0E13CF0095CC00 /* VCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCModel.m; sourceTree = "<group>"; };
+		8376076C1F0E13CF0095CC00 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8376076D1F0E13CF0095CC00 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,10 +91,10 @@
 				8376073A1F0DFB3A0095CC00 /* SysHttp */,
 				837607391F0DFB320095CC00 /* Categorys */,
 				837607141F0DE9B20095CC00 /* SvcUser */,
-				8376075F1F0E0DB70095CC00 /* Business_XXViewController */,
+				837607691F0E13CF0095CC00 /* Business_XX */,
 				837607061F0DE9700095CC00 /* Main.storyboard */,
-				837607001F0DE9700095CC00 /* AppDelegate.h */,
 				837607011F0DE9700095CC00 /* AppDelegate.m */,
+				837607001F0DE9700095CC00 /* AppDelegate.h */,
 				837607091F0DE9700095CC00 /* Assets.xcassets */,
 				8376070B1F0DE9700095CC00 /* LaunchScreen.storyboard */,
 				8376070E1F0DE9700095CC00 /* Info.plist */,
@@ -174,15 +174,15 @@
 			path = SysHttp;
 			sourceTree = "<group>";
 		};
-		8376075F1F0E0DB70095CC00 /* Business_XXViewController */ = {
+		837607691F0E13CF0095CC00 /* Business_XX */ = {
 			isa = PBXGroup;
 			children = (
-				837607661F0E0EE60095CC00 /* VCModel.h */,
-				837607671F0E0EE60095CC00 /* VCModel.m */,
-				837607621F0E0DB70095CC00 /* ViewController.h */,
-				837607631F0E0DB70095CC00 /* ViewController.m */,
+				8376076A1F0E13CF0095CC00 /* VCModel.h */,
+				8376076B1F0E13CF0095CC00 /* VCModel.m */,
+				8376076C1F0E13CF0095CC00 /* ViewController.h */,
+				8376076D1F0E13CF0095CC00 /* ViewController.m */,
 			);
-			path = Business_XXViewController;
+			path = Business_XX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,13 +258,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8376071D1F0DEAA00095CC00 /* HttpResponseSearchContacts.m in Sources */,
-				837607681F0E0EE60095CC00 /* VCModel.m in Sources */,
 				8376071A1F0DEA4A0095CC00 /* HttpRequestSearchContacts.m in Sources */,
 				837607231F0DEB1A0095CC00 /* SvcUser+Info.m in Sources */,
 				837607401F0DFB4A0095CC00 /* NSObject+Add.m in Sources */,
 				837607021F0DE9700095CC00 /* AppDelegate.m in Sources */,
 				8376072F1F0DF7200095CC00 /* SvcUser+Search.m in Sources */,
-				837607651F0E0DB70095CC00 /* ViewController.m in Sources */,
+				8376076F1F0E13CF0095CC00 /* ViewController.m in Sources */,
+				8376076E1F0E13CF0095CC00 /* VCModel.m in Sources */,
 				8376073D1F0DFB3A0095CC00 /* HttpClient.m in Sources */,
 				837606FF1F0DE9700095CC00 /* main.m in Sources */,
 				837607201F0DEB090095CC00 /* SvcUser.m in Sources */,
